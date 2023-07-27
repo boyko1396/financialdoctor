@@ -1303,7 +1303,7 @@ body:not(.fp-viewing-intro) .header {
   .main-hero__hand--1 {
     width: 44vw;
     max-width: 40rem;
-    bottom: 4rem;
+    bottom: 0;
   }
 }
 .main-hero__hand--2 {
@@ -1316,7 +1316,7 @@ body:not(.fp-viewing-intro) .header {
   .main-hero__hand--2 {
     width: 44vw;
     max-width: 40rem;
-    bottom: 4rem;
+    bottom: 0;
   }
 }
 .main-hero__hand--2 .js-svg-inline {
@@ -1356,7 +1356,7 @@ body:not(.fp-viewing-intro) .header {
 }
 @media (max-width: 1199px) {
   .main-hero__sun {
-    margin-top: -16rem;
+    margin-top: -15rem;
   }
 }
 .main-hero__sun:before, .main-hero__sun:after {
@@ -1401,7 +1401,7 @@ body:not(.fp-viewing-intro) .header {
 }
 @media (max-width: 1199px) {
   .main-hero__scroll-link {
-    padding: 0 0 13rem;
+    padding: 0 0 8rem;
   }
 }
 .main-hero__scroll-link:hover {
