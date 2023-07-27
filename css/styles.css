@@ -1522,6 +1522,12 @@ body:not(.fp-viewing-intro):not(.fp-viewing-intro-hero) .main-hero {
     height: auto !important;
   }
 }
+@media (max-width: 1199px) {
+  .intro-section .fp-overflow {
+    padding-top: 14rem;
+    padding-bottom: 0;
+  }
+}
 .intro-section__container {
   min-height: 100vh;
   padding-top: 10.4rem;
@@ -1538,7 +1544,7 @@ body:not(.fp-viewing-intro):not(.fp-viewing-intro-hero) .main-hero {
 }
 @media (max-width: 1199px) {
   .intro-section__container {
-    padding-top: 14rem;
+    padding-top: 0;
     padding-bottom: 0;
   }
 }
