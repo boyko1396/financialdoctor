@@ -1558,27 +1558,20 @@ body:not(.fp-viewing-intro):not(.fp-viewing-intro-hero) .main-hero {
   padding-bottom: 10.4rem;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-  justify-content: center;
   -ms-flex-align: center;
   align-items: center;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
   overflow: hidden;
 }
 @media (max-width: 1199px) {
   .intro-section__container {
     padding-top: 15.4rem;
     padding-bottom: 0;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
 .intro-section__content {
+  width: 100%;
   max-width: 88rem;
   margin: 0 auto 10rem;
   text-align: center;
