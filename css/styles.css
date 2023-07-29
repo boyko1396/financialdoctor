@@ -1542,11 +1542,7 @@ body:not(.fp-viewing-intro):not(.fp-viewing-intro-hero) .main-hero {
   display: -ms-flexbox;
   display: flex;
 }
-.intro-section__test {
-  background: linear-gradient(180deg, #000 0%, #fff 100%);
-  min-height: 100vh;
-}
-.intro-section__test-bottom {
+.intro-section__bottom {
   background: red;
   width: 100%;
   height: 20px;
