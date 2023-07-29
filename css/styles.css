@@ -1552,8 +1552,10 @@ body:not(.fp-viewing-intro):not(.fp-viewing-intro-hero) .main-hero {
 }
 @media (max-width: 1199px) {
   .intro-section__container {
-    padding-top: 16rem;
+    padding-top: 15.4rem;
     padding-bottom: 0;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 .intro-section__content {
