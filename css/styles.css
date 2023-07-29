@@ -1358,7 +1358,7 @@ body:not(.fp-viewing-intro) .header {
 }
 @media (max-width: 1199px) {
   .main-hero__sun {
-    margin-top: -15rem;
+    margin-top: -11rem;
   }
 }
 .main-hero__sun:before, .main-hero__sun:after {
