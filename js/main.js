@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const observer = new IntersectionObserver(handleIntersection, {
         root: null,
         rootMargin: '0px',
-        threshold: 0.6
+        threshold: 0.22
     });
 
     const elements = document.querySelectorAll('.js-scroll-trigger');
